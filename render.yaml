@@ -4,7 +4,7 @@ services:
   - type: web
     name: sigs-backend
     env: node
-    branch: main
+    branch: master
     rootDir: backend-mongodb
     buildCommand: npm install
     startCommand: npm run start
